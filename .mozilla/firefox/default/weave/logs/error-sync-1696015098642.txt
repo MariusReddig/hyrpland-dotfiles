@@ -1,0 +1,36 @@
+1696014416269	Sync.LogManager	DEBUG	Flushing file log
+1696014416275	Sync.LogManager	DEBUG	Log cleanup threshold time: 1695150416275
+1696014416286	Sync.LogManager	DEBUG	Done deleting files.
+1696014417866	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1696014417872	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1696014418015	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1696014418019	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1696014418388	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1696014418391	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1696014419762	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1696014419765	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1696014421937	Sync.RemoteTabs	INFO	Generating tab list with filter
+1696014421958	Sync.RemoteTabs	INFO	Final tab list has 0 clients with 0 tabs.
+1696014422899	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1696014426649	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1696014429014	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1696014429600	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1696014432005	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1696014434319	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1696014439321	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1696014443628	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1696014448629	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1696015098640	Sync.Service	DEBUG	User-Agent: Firefox/118.0.1 (Linux x86_64) FxSync/1.120.0.20230928170531.desktop
+1696015098640	Sync.Service	INFO	Starting sync at 2023-09-29 21:18:18 in browser session WPilUkBoEjSN
+1696015098640	Sync.Service	DEBUG	In sync: should login.
+1696015098640	Sync.Service	INFO	User logged in successfully - verifying login.
+1696015098640	FirefoxAccounts	INFO	Can't get keys; no key material or tokens available
+1696015098641	FirefoxAccounts	INFO	Can't get keys; no key material or tokens available
+1696015098641	Sync.SyncAuthManager	DEBUG	unlockAndVerifyAuthState re-fetched credentials and is returning: error.login.reason.account
+1696015098641	Sync.Status	DEBUG	Status.login: error.login.reason.account => error.login.reason.account
+1696015098641	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1696015098641	Sync.Service	DEBUG	Fetching unlocked auth state returned error.login.reason.account
+1696015098641	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1696015098641	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1696015098642	Sync.Service	DEBUG	Exception calling WrappedLock: Error: Login failed: error.login.reason.account(resource://services-sync/service.sys.mjs:1038:15) JS Stack trace: onNotify@service.sys.mjs:1038:15
+1696015098642	Sync.Service	DEBUG	Not syncing: login returned false.

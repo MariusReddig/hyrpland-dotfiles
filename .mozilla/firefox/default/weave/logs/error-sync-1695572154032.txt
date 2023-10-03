@@ -1,0 +1,23 @@
+1695570716556	Sync.LogManager	DEBUG	Flushing file log
+1695570716562	Sync.LogManager	DEBUG	Log cleanup threshold time: 1694706716562
+1695570716567	Sync.LogManager	DEBUG	Done deleting files.
+1695570717834	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695570719621	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695571881272	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1695571882373	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1695571882744	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1695571886273	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1695572154028	Sync.Service	DEBUG	User-Agent: Firefox/117.0.1 (Linux x86_64) FxSync/1.119.0.20230912092340.desktop
+1695572154028	Sync.Service	INFO	Starting sync at 2023-09-24 18:15:54 in browser session cmwJTF_OTIcF
+1695572154028	Sync.Service	DEBUG	In sync: should login.
+1695572154028	Sync.Service	INFO	User logged in successfully - verifying login.
+1695572154029	FirefoxAccounts	INFO	Can't get keys; no key material or tokens available
+1695572154030	FirefoxAccounts	INFO	Can't get keys; no key material or tokens available
+1695572154030	Sync.SyncAuthManager	DEBUG	unlockAndVerifyAuthState re-fetched credentials and is returning: error.login.reason.account
+1695572154031	Sync.Status	DEBUG	Status.login: error.login.reason.account => error.login.reason.account
+1695572154031	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1695572154031	Sync.Service	DEBUG	Fetching unlocked auth state returned error.login.reason.account
+1695572154031	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1695572154031	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1695572154032	Sync.Service	DEBUG	Exception calling WrappedLock: Error: Login failed: error.login.reason.account(resource://services-sync/service.sys.mjs:1038:15) JS Stack trace: onNotify@service.sys.mjs:1038:15
+1695572154032	Sync.Service	DEBUG	Not syncing: login returned false.

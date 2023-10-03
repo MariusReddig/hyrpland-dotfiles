@@ -1,0 +1,27 @@
+1696026031554	Sync.LogManager	DEBUG	Flushing file log
+1696026031556	Sync.LogManager	DEBUG	Log cleanup threshold time: 1695162031556
+1696026031558	Sync.LogManager	DEBUG	Done deleting files.
+1696026035026	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1696026035026	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1696026035031	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1696026035032	Sync.Service	DEBUG	User-Agent: Firefox/118.0.1 (Linux x86_64) FxSync/1.120.0.20230928170531.desktop
+1696026035032	Sync.Service	INFO	Starting sync at 2023-09-30 00:20:35 in browser session skuWh-vcY3EG
+1696026035032	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1696026035034	Sync.Status	INFO	Resetting Status.
+1696026035034	Sync.Status	DEBUG	Status.service: error.sync.failed => success.status_ok
+1696026035034	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1696026035309	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/202818751/info/collections
+1696026035309	Sync.Service	DEBUG	Fetching server configuration: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/202818751/info/configuration
+1696026035310	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1696026035491	Sync.Resource	DEBUG	GET fail 503 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/202818751/info/configuration
+1696026035491	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/202818751/info/configuration failed with status 503
+1696026035491	Sync.Service	WARN	info/configuration returned 503 - using default configuration
+1696026035491	Sync.ErrorHandler	DEBUG	Got Retry-After: 3600
+1696026035491	Sync.Status	DEBUG	Status.sync: success.sync => error.sync.reason.serverMaintenance
+1696026035491	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1696026035491	Sync.SyncScheduler	DEBUG	Got backoff notification: 3600000ms
+1696026035491	Sync.SyncScheduler	DEBUG	Fuzzed minimum next sync: 1696029635491
+1696026035491	Sync.ErrorHandler	ERROR	Sync encountered an error: Error: Aborting sync, remote setup failed(resource://services-sync/stages/enginesync.sys.mjs:96:13) JS Stack trace: sync@enginesync.sys.mjs:96:13
+1696026035492	Sync.SyncScheduler	DEBUG	Starting client-initiated backoff. Next sync in 3688865.686525856 ms.
+1696026035492	Sync.SyncScheduler	DEBUG	Next sync in 3688865.686525856 ms. (why=client-backoff-schedule)
+1696026035495	Sync.Service	DEBUG	Exception calling anonymous function: Error: Aborting sync, remote setup failed(resource://services-sync/stages/enginesync.sys.mjs:96:13) JS Stack trace: sync@enginesync.sys.mjs:96:13

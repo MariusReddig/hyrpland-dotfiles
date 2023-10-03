@@ -1,0 +1,24 @@
+1696103282137	Sync.LogManager	DEBUG	Flushing file log
+1696103282139	Sync.LogManager	DEBUG	Log cleanup threshold time: 1695239282139
+1696103282147	Sync.LogManager	DEBUG	Done deleting files.
+1696108955427	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1696108956063	Sync.SyncScheduler	DEBUG	Woke from sleep.
+1696108956063	Sync.SyncScheduler	DEBUG	Online, will sync in 2s.
+1696108956063	Sync.SyncScheduler	DEBUG	Next sync in 2000 ms. (why=wake_notification)
+1696108956064	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1696108956067	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1696108957009	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1696108958064	Sync.Service	DEBUG	User-Agent: Firefox/118.0.1 (Linux x86_64) FxSync/1.120.0.20230928170531.desktop
+1696108958064	Sync.Service	INFO	Starting sync at 2023-09-30 23:22:38 in browser session wVoRMcvT_SOF
+1696108958064	Sync.Service	DEBUG	In sync: should login.
+1696108958064	Sync.Service	INFO	User logged in successfully - verifying login.
+1696108958065	FirefoxAccounts	INFO	Can't get keys; no key material or tokens available
+1696108958066	FirefoxAccounts	INFO	Can't get keys; no key material or tokens available
+1696108958066	Sync.SyncAuthManager	DEBUG	unlockAndVerifyAuthState re-fetched credentials and is returning: error.login.reason.account
+1696108958066	Sync.Status	DEBUG	Status.login: error.login.reason.account => error.login.reason.account
+1696108958066	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1696108958066	Sync.Service	DEBUG	Fetching unlocked auth state returned error.login.reason.account
+1696108958066	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1696108958066	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1696108958067	Sync.Service	DEBUG	Exception calling WrappedLock: Error: Login failed: error.login.reason.account(resource://services-sync/service.sys.mjs:1038:15) JS Stack trace: onNotify@service.sys.mjs:1038:15
+1696108958068	Sync.Service	DEBUG	Not syncing: login returned false.

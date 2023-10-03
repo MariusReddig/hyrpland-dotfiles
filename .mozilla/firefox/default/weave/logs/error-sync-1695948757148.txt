@@ -1,0 +1,56 @@
+1695948756488	FirefoxAccounts	TRACE	initializing new storage manager
+1695948756488	FirefoxAccounts	TRACE	starting fetch of json user data
+1695948756502	FirefoxAccounts	TRACE	finished fetch of json user data - took: 14
+1695948756502	FirefoxAccounts	DEBUG	reading secure storage with existing: []
+1695948756502	FirefoxAccounts	TRACE	starting fetch of user data from the login manager
+1695948756507	FirefoxAccounts	DEBUG	secure read fetched items: []
+1695948756507	FirefoxAccounts	TRACE	initializing of new storage manager done
+1695948756508	FirefoxAccounts	ERROR	FxA rejecting with error AUTH_ERROR, details: no session token
+1695948756789	Sync.Status	INFO	Resetting Status.
+1695948756789	Sync.Status	DEBUG	Status.service: undefined => success.status_ok
+1695948756789	Sync.SyncScheduler	TRACE	Setting SyncScheduler policy values to defaults.
+1695948756789	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1695948756789	Sync.Service	INFO	Loading Weave 1.120.0
+1695948756790	Sync.Engine.Clients	DEBUG	Engine constructed
+1695948756790	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1695948756791	Sync.Engine.Addons	DEBUG	Engine constructed
+1695948756796	Sync.Engine.Addons	DEBUG	SyncEngine initialized: addons
+1695948756797	Sync.Engine.Passwords	DEBUG	Engine constructed
+1695948756804	Sync.Engine.Passwords	DEBUG	SyncEngine initialized: passwords
+1695948756805	Sync.Engine.Prefs	DEBUG	Engine constructed
+1695948756867	Sync.Engine.Prefs	DEBUG	SyncEngine initialized: prefs
+1695948756869	Sync.Engine.Bookmarks	DEBUG	Engine constructed
+1695948756891	Sync.Engine.Bookmarks	DEBUG	SyncEngine initialized: bookmarks
+1695948756893	Sync.Engine.Forms	DEBUG	Engine constructed
+1695948756900	Sync.Engine.Forms	DEBUG	SyncEngine initialized: forms
+1695948756901	Sync.Engine.History	DEBUG	Engine constructed
+1695948756908	Sync.Engine.History	DEBUG	SyncEngine initialized: history
+1695948756909	Sync.Engine.Tabs	DEBUG	Engine constructed
+1695948756913	Sync.Engine.Tabs	DEBUG	SyncEngine initialized: tabs
+1695948756917	Sync.Engine.Tabs	INFO	Got a bridged engine!
+1695948756918	Sync.Engine.CreditCards	DEBUG	Engine constructed
+1695948756930	Sync.Engine.CreditCards	DEBUG	SyncEngine initialized: creditcards
+1695948756931	Sync.Engine.Extension-Storage	DEBUG	Engine constructed
+1695948756933	Sync.Engine.Extension-Storage	DEBUG	SyncEngine initialized: extension-storage
+1695948756933	Sync.Service	INFO	Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0
+1695948756934	Sync.AddonsReconciler	INFO	Registering as Add-on Manager listener.
+1695948756934	Sync.AddonsReconciler	DEBUG	Adding change listener.
+1695948756938	FirefoxAccounts	INFO	Generating and persisting encrypted sendtab keys
+1695948756938	FirefoxAccounts	INFO	Can't get keys; no key material or tokens available
+1695948756938	FirefoxAccounts	INFO	Can't fetch keys, so unable to determine sendtab keys
+1695948756938	Sync.Telemetry	WARN	Failed to set sync identifiers in the deletion-request ping: Error: _registerOrUpdateDevice called without a session token
+1695948756941	Sync.Service	DEBUG	User-Agent: Firefox/118.0 (Linux x86_64) FxSync/1.120.0.20230925122949.desktop
+1695948756942	Sync.Service	INFO	Starting sync at 2023-09-29 02:52:36 in browser session BmUxo8l4UfrR
+1695948756942	Sync.Service	DEBUG	In sync: should login.
+1695948756942	Sync.Service	INFO	User logged in successfully - verifying login.
+1695948756942	FirefoxAccounts	INFO	Can't get keys; no key material or tokens available
+1695948756943	FirefoxAccounts	INFO	Can't get keys; no key material or tokens available
+1695948756943	Sync.SyncAuthManager	DEBUG	unlockAndVerifyAuthState re-fetched credentials and is returning: error.login.reason.account
+1695948756943	Sync.Status	DEBUG	Status.login: success.login => error.login.reason.account
+1695948756943	Sync.Status	DEBUG	Status.service: success.status_ok => error.login.failed
+1695948756943	Sync.Service	DEBUG	Fetching unlocked auth state returned error.login.reason.account
+1695948756943	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1695948756943	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1695948756943	Sync.Service	DEBUG	Exception calling WrappedLock: Error: Login failed: error.login.reason.account(resource://services-sync/service.sys.mjs:1038:15) JS Stack trace: onNotify@service.sys.mjs:1038:15
+1695948756943	Sync.Service	DEBUG	Not syncing: login returned false.
+1695948757064	FirefoxAccounts	DEBUG	FxAccountsWebChannel registered: account_updates with origin https://accounts.firefox.com

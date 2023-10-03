@@ -1,0 +1,29 @@
+1696066623974	Sync.LogManager	DEBUG	Flushing file log
+1696066623979	Sync.LogManager	DEBUG	Log cleanup threshold time: 1695202623979
+1696066623989	Sync.LogManager	DEBUG	Done deleting files.
+1696066625738	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1696066625820	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1696066627496	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1696066632402	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1696066632600	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1696066637402	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1696066644577	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1696066644864	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1696066649751	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1696066659517	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1696066664567	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1696066698980	Sync.SyncScheduler	DEBUG	Going to sleep, doing a quick sync.
+1696066698981	Sync.Service	DEBUG	User-Agent: Firefox/118.0.1 (Linux x86_64) FxSync/1.120.0.20230928170531.desktop
+1696066698981	Sync.Service	INFO	Starting sync at 2023-09-30 11:38:18 in browser session moZHK2SL3hgk
+1696066698981	Sync.Service	DEBUG	In sync: should login.
+1696066698981	Sync.Service	INFO	User logged in successfully - verifying login.
+1696066698982	FirefoxAccounts	INFO	Can't get keys; no key material or tokens available
+1696066698982	FirefoxAccounts	INFO	Can't get keys; no key material or tokens available
+1696066698983	Sync.SyncAuthManager	DEBUG	unlockAndVerifyAuthState re-fetched credentials and is returning: error.login.reason.account
+1696066698983	Sync.Status	DEBUG	Status.login: error.login.reason.account => error.login.reason.account
+1696066698983	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1696066698983	Sync.Service	DEBUG	Fetching unlocked auth state returned error.login.reason.account
+1696066698983	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1696066698983	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1696066698984	Sync.Service	DEBUG	Exception calling WrappedLock: Error: Login failed: error.login.reason.account(resource://services-sync/service.sys.mjs:1038:15) JS Stack trace: onNotify@service.sys.mjs:1038:15
+1696066698984	Sync.Service	DEBUG	Not syncing: login returned false.

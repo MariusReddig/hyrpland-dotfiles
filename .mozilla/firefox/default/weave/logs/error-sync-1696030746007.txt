@@ -1,0 +1,24 @@
+1696030393996	Sync.LogManager	DEBUG	Flushing file log
+1696030394000	Sync.LogManager	DEBUG	Log cleanup threshold time: 1695166394000
+1696030394023	Sync.LogManager	DEBUG	Done deleting files.
+1696030397090	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1696030397096	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1696030400132	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1696030402091	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1696030403816	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1696030405424	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1696030408817	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1696030746004	Sync.Service	DEBUG	User-Agent: Firefox/118.0.1 (Linux x86_64) FxSync/1.120.0.20230928170531.desktop
+1696030746004	Sync.Service	INFO	Starting sync at 2023-09-30 01:39:06 in browser session qkQn5v22manI
+1696030746004	Sync.Service	DEBUG	In sync: should login.
+1696030746004	Sync.Service	INFO	User logged in successfully - verifying login.
+1696030746004	FirefoxAccounts	INFO	Can't get keys; no key material or tokens available
+1696030746005	FirefoxAccounts	INFO	Can't get keys; no key material or tokens available
+1696030746005	Sync.SyncAuthManager	DEBUG	unlockAndVerifyAuthState re-fetched credentials and is returning: error.login.reason.account
+1696030746005	Sync.Status	DEBUG	Status.login: error.login.reason.account => error.login.reason.account
+1696030746005	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1696030746005	Sync.Service	DEBUG	Fetching unlocked auth state returned error.login.reason.account
+1696030746005	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1696030746006	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1696030746006	Sync.Service	DEBUG	Exception calling WrappedLock: Error: Login failed: error.login.reason.account(resource://services-sync/service.sys.mjs:1038:15) JS Stack trace: onNotify@service.sys.mjs:1038:15
+1696030746007	Sync.Service	DEBUG	Not syncing: login returned false.

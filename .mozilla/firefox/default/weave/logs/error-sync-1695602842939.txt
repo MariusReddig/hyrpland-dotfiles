@@ -1,0 +1,38 @@
+1695601322609	Sync.LogManager	DEBUG	Flushing file log
+1695601322611	Sync.LogManager	DEBUG	Log cleanup threshold time: 1694737322611
+1695601322616	Sync.LogManager	DEBUG	Done deleting files.
+1695601323583	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1695601323589	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1695601323639	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1695601328587	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1695601330550	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1695601334494	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1695601334863	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1695601334948	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1695601335597	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1695601336325	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1695601337080	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1695601338629	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1695601338722	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1695601338901	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1695601340063	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1695601340158	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1695601341379	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1695601342430	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1695601343992	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1695601345984	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1695601347448	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1695602842937	Sync.Service	DEBUG	User-Agent: Firefox/117.0.1 (Linux x86_64) FxSync/1.119.0.20230912092340.desktop
+1695602842937	Sync.Service	INFO	Starting sync at 2023-09-25 02:47:22 in browser session gukjC9TRK043
+1695602842937	Sync.Service	DEBUG	In sync: should login.
+1695602842937	Sync.Service	INFO	User logged in successfully - verifying login.
+1695602842937	FirefoxAccounts	INFO	Can't get keys; no key material or tokens available
+1695602842937	FirefoxAccounts	INFO	Can't get keys; no key material or tokens available
+1695602842937	Sync.SyncAuthManager	DEBUG	unlockAndVerifyAuthState re-fetched credentials and is returning: error.login.reason.account
+1695602842938	Sync.Status	DEBUG	Status.login: error.login.reason.account => error.login.reason.account
+1695602842938	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1695602842938	Sync.Service	DEBUG	Fetching unlocked auth state returned error.login.reason.account
+1695602842938	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1695602842938	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1695602842938	Sync.Service	DEBUG	Exception calling WrappedLock: Error: Login failed: error.login.reason.account(resource://services-sync/service.sys.mjs:1038:15) JS Stack trace: onNotify@service.sys.mjs:1038:15
+1695602842938	Sync.Service	DEBUG	Not syncing: login returned false.

@@ -1,0 +1,53 @@
+1695659294328	Sync.LogManager	DEBUG	Flushing file log
+1695659294331	Sync.LogManager	DEBUG	Log cleanup threshold time: 1694795294331
+1695659294336	Sync.LogManager	DEBUG	Done deleting files.
+1695659298801	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1695659299778	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1695659300467	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1695659303771	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1695659303804	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1695659303875	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1695659304224	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1695659307331	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1695659307359	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1695659307761	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1695659307904	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1695659309295	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1695659310006	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1695659310502	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1695659315013	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1695659389012	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695659390805	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695659392752	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695659475825	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1695659476190	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1695659478454	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1695659478484	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1695659478899	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1695659480873	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1695659480884	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1695659480895	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1695659480976	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1695659481359	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1695659482106	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1695659482538	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1695659486129	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1695660515219	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695660518504	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695660520139	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695660521872	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695660605226	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695660746349	Sync.Service	DEBUG	User-Agent: Firefox/117.0.1 (Linux x86_64) FxSync/1.119.0.20230912092340.desktop
+1695660746349	Sync.Service	INFO	Starting sync at 2023-09-25 18:52:26 in browser session -y31Uj5MepOM
+1695660746349	Sync.Service	DEBUG	In sync: should login.
+1695660746349	Sync.Service	INFO	User logged in successfully - verifying login.
+1695660746350	FirefoxAccounts	INFO	Can't get keys; no key material or tokens available
+1695660746350	FirefoxAccounts	INFO	Can't get keys; no key material or tokens available
+1695660746350	Sync.SyncAuthManager	DEBUG	unlockAndVerifyAuthState re-fetched credentials and is returning: error.login.reason.account
+1695660746350	Sync.Status	DEBUG	Status.login: error.login.reason.account => error.login.reason.account
+1695660746350	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1695660746350	Sync.Service	DEBUG	Fetching unlocked auth state returned error.login.reason.account
+1695660746351	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1695660746351	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1695660746351	Sync.Service	DEBUG	Exception calling WrappedLock: Error: Login failed: error.login.reason.account(resource://services-sync/service.sys.mjs:1038:15) JS Stack trace: onNotify@service.sys.mjs:1038:15
+1695660746351	Sync.Service	DEBUG	Not syncing: login returned false.

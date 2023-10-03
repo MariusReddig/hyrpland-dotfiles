@@ -1,0 +1,27 @@
+1695688902630	Sync.LogManager	DEBUG	Flushing file log
+1695688902631	Sync.LogManager	DEBUG	Log cleanup threshold time: 1694824902631
+1695688902637	Sync.LogManager	DEBUG	Done deleting files.
+1695931516404	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1695931516404	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1695931516408	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1695931516409	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695931516548	Sync.SyncScheduler	DEBUG	Woke from sleep.
+1695931516548	Sync.SyncScheduler	DEBUG	Online, will sync in 2s.
+1695931516548	Sync.SyncScheduler	DEBUG	Next sync in 2000 ms. (why=wake_notification)
+1695931516549	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695931518550	Sync.Service	DEBUG	User-Agent: Firefox/117.0.1 (Linux x86_64) FxSync/1.119.0.20230912092340.desktop
+1695931518550	FirefoxAccounts	INFO	Polling device commands.
+1695931518550	Sync.Service	INFO	Starting sync at 2023-09-28 22:05:18 in browser session ONMUaB7-yUA3
+1695931518550	Sync.Service	DEBUG	In sync: should login.
+1695931518550	Sync.Service	INFO	User logged in successfully - verifying login.
+1695931518550	FirefoxAccounts	INFO	Can't get keys; no key material or tokens available
+1695931518551	Sync.SyncScheduler	ERROR	Fetching missed remote commands failed.: Error: No session token.(resource://gre/modules/FxAccountsCommands.sys.mjs:132:13) JS Stack trace: _fetchDeviceCommands@FxAccountsCommands.sys.mjs:132:13
+1695931518551	FirefoxAccounts	INFO	Can't get keys; no key material or tokens available
+1695931518551	Sync.SyncAuthManager	DEBUG	unlockAndVerifyAuthState re-fetched credentials and is returning: error.login.reason.account
+1695931518551	Sync.Status	DEBUG	Status.login: error.login.reason.account => error.login.reason.account
+1695931518551	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1695931518551	Sync.Service	DEBUG	Fetching unlocked auth state returned error.login.reason.account
+1695931518551	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1695931518552	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1695931518552	Sync.Service	DEBUG	Exception calling WrappedLock: Error: Login failed: error.login.reason.account(resource://services-sync/service.sys.mjs:1038:15) JS Stack trace: onNotify@service.sys.mjs:1038:15
+1695931518553	Sync.Service	DEBUG	Not syncing: login returned false.

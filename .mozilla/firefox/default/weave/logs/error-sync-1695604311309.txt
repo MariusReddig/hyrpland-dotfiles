@@ -1,0 +1,17 @@
+1695603717758	Sync.LogManager	DEBUG	Flushing file log
+1695603717768	Sync.LogManager	DEBUG	Log cleanup threshold time: 1694739717768
+1695603717787	Sync.LogManager	DEBUG	Done deleting files.
+1695604311306	Sync.Service	DEBUG	User-Agent: Firefox/117.0.1 (Linux x86_64) FxSync/1.119.0.20230912092340.desktop
+1695604311306	Sync.Service	INFO	Starting sync at 2023-09-25 03:11:51 in browser session htRa0WpcSLkp
+1695604311306	Sync.Service	DEBUG	In sync: should login.
+1695604311306	Sync.Service	INFO	User logged in successfully - verifying login.
+1695604311306	FirefoxAccounts	INFO	Can't get keys; no key material or tokens available
+1695604311307	FirefoxAccounts	INFO	Can't get keys; no key material or tokens available
+1695604311307	Sync.SyncAuthManager	DEBUG	unlockAndVerifyAuthState re-fetched credentials and is returning: error.login.reason.account
+1695604311307	Sync.Status	DEBUG	Status.login: error.login.reason.account => error.login.reason.account
+1695604311307	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1695604311307	Sync.Service	DEBUG	Fetching unlocked auth state returned error.login.reason.account
+1695604311307	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1695604311307	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1695604311308	Sync.Service	DEBUG	Exception calling WrappedLock: Error: Login failed: error.login.reason.account(resource://services-sync/service.sys.mjs:1038:15) JS Stack trace: onNotify@service.sys.mjs:1038:15
+1695604311308	Sync.Service	DEBUG	Not syncing: login returned false.

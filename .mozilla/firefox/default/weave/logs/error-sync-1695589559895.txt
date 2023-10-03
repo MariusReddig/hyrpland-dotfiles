@@ -1,0 +1,21 @@
+1695589556423	Sync.LogManager	DEBUG	Flushing file log
+1695589556428	Sync.LogManager	DEBUG	Log cleanup threshold time: 1694725556428
+1695589556434	Sync.LogManager	DEBUG	Done deleting files.
+1695589559885	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1695589559885	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1695589559888	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1695589559889	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1695589559891	Sync.Service	DEBUG	User-Agent: Firefox/117.0.1 (Linux x86_64) FxSync/1.119.0.20230912092340.desktop
+1695589559891	Sync.Service	INFO	Starting sync at 2023-09-24 23:05:59 in browser session cmwJTF_OTIcF
+1695589559891	Sync.Service	DEBUG	In sync: should login.
+1695589559891	Sync.Service	INFO	User logged in successfully - verifying login.
+1695589559892	FirefoxAccounts	INFO	Can't get keys; no key material or tokens available
+1695589559892	FirefoxAccounts	INFO	Can't get keys; no key material or tokens available
+1695589559892	Sync.SyncAuthManager	DEBUG	unlockAndVerifyAuthState re-fetched credentials and is returning: error.login.reason.account
+1695589559892	Sync.Status	DEBUG	Status.login: error.login.reason.account => error.login.reason.account
+1695589559892	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1695589559892	Sync.Service	DEBUG	Fetching unlocked auth state returned error.login.reason.account
+1695589559892	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1695589559893	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1695589559894	Sync.Service	DEBUG	Exception calling WrappedLock: Error: Login failed: error.login.reason.account(resource://services-sync/service.sys.mjs:1038:15) JS Stack trace: onNotify@service.sys.mjs:1038:15
+1695589559894	Sync.Service	DEBUG	Not syncing: login returned false.

@@ -1,0 +1,10 @@
+height=18%
+hide_scroll=true
+insensitive=true
+location=0
+matching=fuzzy
+mode=dmenu
+term=kitty
+width=20%
+line_wrap=word
+signle_click=true

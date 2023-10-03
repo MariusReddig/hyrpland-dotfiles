@@ -1,0 +1,14 @@
+#!/bin/bash
+
+$gnomeschema	= org.gnome.desktop.interface
+$GTKTHEME	= $1
+$ICONTHEME	= $2
+$CURSORTHEME	= $3
+$CURSORSIZE	= $4
+$FONTNAME	= $5
+
+gsettings set $gnomeschema gtk-theme		$GTKTHEME
+gsettings set $gnomeschema icon-theme		$ICONTHEME
+gsettings set $gnomeschema cursor-theme		$CURSORTHEME
+gsettings set $gnomeschema cursor-size		$CURSORSIZE
+gsettings set $gnomeschema font-name		$FONTNAME

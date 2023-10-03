@@ -1,0 +1,21 @@
+1695607488483	Sync.LogManager	DEBUG	Flushing file log
+1695607488484	Sync.LogManager	DEBUG	Log cleanup threshold time: 1694743488484
+1695607488489	Sync.LogManager	DEBUG	Done deleting files.
+1695607503471	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1695607508923	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1695607518072	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1695607523510	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.account, service: error.login.failed, sync: success.sync>
+1695608203508	Sync.Service	DEBUG	User-Agent: Firefox/117.0.1 (Linux x86_64) FxSync/1.119.0.20230912092340.desktop
+1695608203508	Sync.Service	INFO	Starting sync at 2023-09-25 04:16:43 in browser session htRa0WpcSLkp
+1695608203508	Sync.Service	DEBUG	In sync: should login.
+1695608203509	Sync.Service	INFO	User logged in successfully - verifying login.
+1695608203509	FirefoxAccounts	INFO	Can't get keys; no key material or tokens available
+1695608203509	FirefoxAccounts	INFO	Can't get keys; no key material or tokens available
+1695608203509	Sync.SyncAuthManager	DEBUG	unlockAndVerifyAuthState re-fetched credentials and is returning: error.login.reason.account
+1695608203509	Sync.Status	DEBUG	Status.login: error.login.reason.account => error.login.reason.account
+1695608203509	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1695608203509	Sync.Service	DEBUG	Fetching unlocked auth state returned error.login.reason.account
+1695608203510	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1695608203510	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1695608203510	Sync.Service	DEBUG	Exception calling WrappedLock: Error: Login failed: error.login.reason.account(resource://services-sync/service.sys.mjs:1038:15) JS Stack trace: onNotify@service.sys.mjs:1038:15
+1695608203510	Sync.Service	DEBUG	Not syncing: login returned false.
