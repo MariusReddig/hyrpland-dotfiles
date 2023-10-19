@@ -1,0 +1,10 @@
+#!/bin/bash
+
+wppath=~/.config/hypr/wallpapers/wallpaper.png
+
+if [ -z "$1" ]; then
+  exit
+fi
+fullpath=$(readlink -f $1)
+ln -sif $fullpath $wppath
+swww img $wppath

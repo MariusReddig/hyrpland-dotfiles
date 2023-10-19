@@ -5,6 +5,6 @@ chosen=$(printf "Power Off\nRestart\nLock" | wofi -c ~/.config/wofi/menus/powerm
 case "$chosen" in
   "Power Off") poweroff;;
   "Restart") reboot;;
-  "Lock") lock;;
+  "Lock") ~/.local/bin/lock;;
   *) exit 1 ;;
 esac

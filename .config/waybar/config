@@ -51,7 +51,7 @@
     "custom/powermenu": {
     	"format": " ",
     	"tooltip": false,
-        "on-click": "~/.config/wofi/menus/powermenu/powermenu.sh"
+        "on-click": "pkill wofi | ~/.config/wofi/menus/powermenu/powermenu.sh"
     },
 
     "custom/notification": {

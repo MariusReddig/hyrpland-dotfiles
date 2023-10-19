@@ -1,0 +1,18 @@
+#! /bin/bash
+
+# time yntil suspend in Seconds
+screensavertime=300
+lockdelay=60
+suspeddelay=600
+
+locktime=$(($screensavertime+$lockdelay))
+suspendtime=$(($locktime+$suspeddelay))
+
+
+exec  swayidle -w timeout $screensavertime  'hyprctl dispatch dpms off'     \
+                  resume                    'hyprctl dispatch dpms on'      \
+                  timeout $locktime         '~/.config/hypr/scripts/lock f' \
+                  resume                    'hyprctl dispatch dpms on'      \
+                  timeout $suspendtime      'systemctl suspend'             \
+                  resume                    'hyprctl dispatch dpms on'      \
+                  before-sleep              '~/.config/hypr/scripts/lock f' 
