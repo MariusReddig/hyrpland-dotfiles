@@ -1,10 +1,48 @@
 #!/bin/bash
 
-wppath=~/.config/hypr/wallpapers/wallpaper.png
+# DEfault values
+reload=flase
+wallpaperPath=~/.config/hypr/wallpapers/wallpaper.png
+sddmpath=/usr/share/sddm/themes/sugar-candy/Backgrounds/Wallpaper.png
+filename=""
 
-if [ -z "$1" ]; then
-  exit
+
+if [ $# -eq 0 ]; then
+  echo "Usage: $0 [-r] <filename>"
+  exit 1
 fi
-fullpath=$(readlink -f $1)
-ln -sif $fullpath $wppath
-swww img $wppath
+
+while getopts ":r" opt; do
+  case ${opt} in
+    r) reload=true
+    ;;
+    \?) 
+      echo "Invalid option: -$OPTARG" >&2
+      exit 1
+    ;;
+  esac
+done
+
+# Shift command line arguments to get the filename
+shift $((OPTIND - 1))
+
+# Reload Wallpaper
+if [ "$reload" = true ]; then
+  swww img $wallpaperPath
+  echo "Wallpaper reladed"
+  exit 1
+fi
+
+# Check if file exists
+filename=$(readlink -f $1)
+if [ ! -f "$1" ]; then
+  echo "File not found."
+  exit 1
+fi
+
+#set file as new wallpaper
+ln -sif $filename $wallpaperPath
+sudo cp $wallpaperPath $sddmpath
+swww img $wallpaperPath
+echo "new Wallpaper loaded"
+

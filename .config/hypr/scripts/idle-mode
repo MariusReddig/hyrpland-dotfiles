@@ -8,11 +8,52 @@ suspeddelay=600
 locktime=$(($screensavertime+$lockdelay))
 suspendtime=$(($locktime+$suspeddelay))
 
+if [ -z "$1" ]; then
+  echo "  ERROR: no commands given!             "
+  echo "  --------------------------------------"
+  echo "  regex : idle-mode <mode>              "
+  echo "                                        "
+  echo "  modes:                                "
+  echo "   on     : start idle-mode             "
+  echo "   off    : stop  idle-mode             "
+  echo "   switch : switches between on and off "
 
-exec  swayidle -w timeout $screensavertime  'hyprctl dispatch dpms off'     \
-                  resume                    'hyprctl dispatch dpms on'      \
-                  timeout $locktime         '~/.config/hypr/scripts/lock f' \
-                  resume                    'hyprctl dispatch dpms on'      \
-                  timeout $suspendtime      'systemctl suspend'             \
-                  resume                    'hyprctl dispatch dpms on'      \
-                  before-sleep              '~/.config/hypr/scripts/lock f' 
+elif [[ $1 = "on" ]]; then
+  exec  swayidle -w timeout $screensavertime  'hyprctl dispatch dpms off'     \
+                    resume                    'hyprctl dispatch dpms on'      \
+                    timeout $locktime         '~/.config/hypr/scripts/lock f' \
+                    resume                    'hyprctl dispatch dpms on'      \
+                    timeout $suspendtime      'systemctl suspend'             \
+                    resume                    'hyprctl dispatch dpms on'      \
+                    before-sleep              '~/.config/hypr/scripts/lock f' &
+  notify-send "$(idle-mode info)"
+
+elif [[ $1 = "off" ]]; then
+  pkill swayidle
+  notify-send "$(idle-mode info)"
+
+elif [[ $1 = "switch" ]]; then
+  if [  -n "$(pgrep swayidle)" ]; then
+    exec idle-mode off
+  else
+    exec idle-mode on
+  fi
+
+elif [[ $1 = "info" ]]; then
+  if [  -n "$(pgrep swayidle)" ]; then
+    echo "idle-mode is currently on"
+  else
+    echo "idle-mode is currently off"
+  fi
+
+else
+  echo "ERROR: wrong command!                   "
+  echo "  --------------------------------------"
+  echo "  regex : idle-mode <mode>              "
+  echo "                                        "
+  echo "  modes:                                "
+  echo "   on     : start idle-mode             "
+  echo "   off    : stop  idle-mode             "
+  echo "   switch : switches between on and off "
+
+fi
