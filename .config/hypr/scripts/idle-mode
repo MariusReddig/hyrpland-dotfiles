@@ -17,6 +17,7 @@ if [ -z "$1" ]; then
   echo "   on     : start idle-mode             "
   echo "   off    : stop  idle-mode             "
   echo "   switch : switches between on and off "
+  echo "   info   : outputs the current state   "
 
 elif [[ $1 = "on" ]]; then
   exec  swayidle -w timeout $screensavertime  'hyprctl dispatch dpms off'     \

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 flag=$1
-wallpaper=~/.config/hypr/wallpapers/wallpaper.png
+wallpaper=~/.config/hypr/wallpaper
 
 if [ "$flag" = "f" ]; then
   exec swaylock -f --clock --image $wallpaper --effect-blur 4x2 --timestr "%k:%M"
